@@ -1,5 +1,5 @@
 html {
-    height: 200vh;
+    /*height: 200vh;*/
 }
 h1 {
     text-align: center;
@@ -11,11 +11,14 @@ body {
 
 /* This is the background of the calculator. */
 main {
-    position: fixed;
+    position: absolute;
+    margin: 0;
+    /*position: fixed;*/
     width: 442px;
     height: 760px;
-    left: 35%;
-    top: 10%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 5%);
     border: 2px solid black;
     border-radius: 25px;
     background-color: blue;
