@@ -1,0 +1,85 @@
+/** {
+    background-color: black;
+}*/
+h1 {
+    text-align: center;
+}
+
+main {
+    border: 2px solid black;
+    padding: 5px 34%;
+    background-color: blue;
+    /*align-content: center;*/
+    
+    /*background-color: black;*/  
+}
+div {
+    background-color: darkcyan;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: xxx-large;
+    /*vertical-align: middle;*/
+}
+
+.display {
+    border: 2px solid black;
+    padding: 5%;
+    background-color: white;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: xxx-large;
+    grid-row: 1 / 2;
+    grid-column: 1 / 5;
+}
+.calc {
+    position: fixed;
+    right: 37%;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(8, 100px);
+    grid-gap: 5px;
+    grid-row: 3 / 7;
+    grid-column: 1 / 5;
+}
+
+.logo {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    padding: 5px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.calctitle {
+    grid-row: 2 / 3;
+    grid-column: 2 / 5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 35px 5px;
+}
+
+.func, .equalsign {
+    color: yellow;
+    padding: 20px;
+}
+
+.equalsign {
+    grid-row: 6 / 8;
+    grid-column: 4 / 5;
+    padding: 77px 20px;
+}
+
+.num {
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.num:hover, .func:hover, .equalsign:hover {
+    background-color: palegreen;
+    cursor: pointer;
+}
