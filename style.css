@@ -7,10 +7,10 @@ h1 {
 
 main {
     position: fixed;
-    width: 450px;
+    width: 442px;
     height: 760px;
-    left: 34%;
-    top: 80px;
+    right: 41.4%;
+    top: 9%;
     border: 2px solid black;
     border-radius: 25px;
     background-color: blue;
@@ -27,7 +27,7 @@ div {
     /*vertical-align: middle;*/
 }
 
-.display {
+#display {
     border: 2px solid black;
     padding: 5%;
     background-color: white;
@@ -40,8 +40,8 @@ div {
 }
 .calc {
     position: fixed;
-    right: 37%;
-    top: 95px;
+    right: 42%;
+    top: 10.4%;
     display: grid;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: repeat(8, 100px);
